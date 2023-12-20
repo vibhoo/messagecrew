@@ -5,53 +5,56 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  LockClosedIcon,
+  ArrowUpTrayIcon,
+  ClipboardDocumentIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Create beautiful campaigns",
+  desc: "Create engaging and responsive campaigns with our rich-text editor",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Design responsive campaigns",
+      desc: "Design your campaign to be responsive on a mobile device",
+      icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Upload media",
+      desc: "Use the media manager to upload images for your e-mail campaigns",
+      icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Create templates",
+      desc: "Create templates so you can use them later",
+      icon: <ClipboardDocumentIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Manage campaigns and subscribers",
+  desc: "Take care of your email list and campaigns with our easy to use Panel",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Import subscribers",
+      desc: "Import your contacts, create lists and manage campaigns",
+      icon: <ArrowUpTrayIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Analytics",
+      desc: "Simple analaytics and visualizations.",
+      icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Privacy at top",
+      desc: "Allow subscribers to permanently blocklist themselves, export all their data, and to wipe all their data in a single click.",
+      icon: <LockClosedIcon />,
     },
   ],
 };
