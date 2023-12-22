@@ -8,7 +8,7 @@ import { benefitOne, benefitTwo } from "../components/data";
 import Benefits from "../components/benefits";
 // import Footer from "../components/footer";
 // import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
+// import Cta from "../components/cta";
 // import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
@@ -55,7 +55,7 @@ const Home = () => {
         conversion rate as well as support or chat requests.
       </SectionTitle> */}
       {/* <Faq /> */}
-      <Cta />
+      {/* <Cta /> */}
       {/* <Footer /> */}
       <PopupWidget />
     </>
